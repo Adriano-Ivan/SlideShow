@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  overflow-x: hidden;
+}
 body {
   margin: 0;
 }
@@ -57,4 +60,12 @@ header {
   text-align: center;
   background-color: #fff;
   cursor: pointer;
+}
+footer {
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
 }
